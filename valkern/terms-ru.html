@@ -1,0 +1,100 @@
+<!doctype html>
+<html lang="ru">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="referrer" content="no-referrer">
+<title>Условия использования — Valkern</title>
+<style>
+@font-face { font-family: Plex; font-weight: 400; src: url(fonts/ibm_plex_sans_regular.ttf); font-display: swap; }
+@font-face { font-family: Plex; font-weight: 600; src: url(fonts/ibm_plex_sans_semibold.ttf); font-display: swap; }
+@font-face { font-family: Mono; font-weight: 700; src: url(fonts/jetbrains_mono_bold.ttf); font-display: swap; }
+:root {
+  --bg: #E7E3DA; --surface: #F5F2EC; --text: #211F1B; --muted: #555048; --line: #B9B2A4;
+  --accent: #B33B0A; --band: #26241F; --band-text: #F2EFE8; --band-accent: #FF7B3A; --mark: #FFF2B8;
+}
+@media (prefers-color-scheme: dark) {
+  :root { --bg: #191816; --surface: #24221F; --text: #EFEBE3; --muted: #ADA698; --line: #4A463F;
+    --accent: #FF7B3A; --mark: #5C4A00; }
+}
+* { box-sizing: border-box; }
+html { -webkit-text-size-adjust: 100%; }
+body { margin: 0; background: var(--bg); color: var(--text);
+  font: 400 17px/1.6 Plex, system-ui, -apple-system, "Segoe UI", Roboto, sans-serif; }
+header { background: var(--band); color: var(--band-text); }
+.wrap { max-width: 760px; margin: 0 auto; padding: 0 20px; }
+header .wrap { padding-top: 28px; padding-bottom: 28px; }
+.brand { display: flex; align-items: center; gap: 12px; color: var(--band-text); text-decoration: none; }
+.brand svg { width: 36px; height: 36px; flex: none; }
+.brand b { font: 700 18px/1 Mono, ui-monospace, monospace; letter-spacing: .16em; }
+.brand small { display: block; margin-top: 4px; font: 700 11px/1 Mono, ui-monospace, monospace; letter-spacing: .2em;
+  color: #BDB6A9; }
+h1 { margin: 24px 0 0; font-weight: 600; font-size: 34px; line-height: 1.2; }
+.langs { margin-top: 14px; font-size: 15px; color: #BDB6A9; }
+.langs a { color: var(--band-text); }
+.langs [aria-current] { color: var(--band-accent); font-weight: 600; text-decoration: none; }
+main .wrap { padding-top: 8px; padding-bottom: 48px; }
+.meta { margin: 24px 0 8px; padding: 14px 16px; background: var(--surface); border: 1.5px solid var(--line);
+  border-radius: 8px; color: var(--muted); font-size: 15px; }
+h2 { margin: 36px 0 8px; font-weight: 600; font-size: 22px; line-height: 1.3; }
+p, ul { margin: 0 0 14px; }
+ul { padding-left: 22px; }
+li { margin: 6px 0; }
+a { color: var(--accent); text-underline-offset: 2px; }
+code { font-family: ui-monospace, monospace; font-size: .9em; }
+strong { font-weight: 600; }
+.table { overflow-x: auto; margin: 0 0 16px; }
+table { border-collapse: collapse; width: 100%; background: var(--surface); font-size: 15px; }
+th, td { text-align: left; vertical-align: top; padding: 10px 12px; border: 1.5px solid var(--line); }
+th { font-weight: 600; }
+.todo { background: var(--mark); border-radius: 3px; padding: 0 3px; }
+footer { border-top: 1.5px solid var(--line); color: var(--muted); font-size: 15px; }
+footer .wrap { padding-top: 20px; padding-bottom: 32px; display: flex; flex-wrap: wrap; gap: 8px 24px; }
+footer a { color: var(--muted); }
+@media (max-width: 480px) { h1 { font-size: 28px; } body { font-size: 16px; } }
+@media print { header { background: none; color: #000; } .langs, footer { display: none; } }
+</style>
+</head>
+<body>
+<header><div class="wrap">
+<a class="brand" href="index.html"><svg viewBox="0 0 24 24" fill="none" stroke="#FF7B3A" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M9.5 3.5h5a4.5 4.5 0 0 1 4.5 4.5v8a4.5 4.5 0 0 1-4.5 4.5h-5A4.5 4.5 0 0 1 5 16v-3M5 8a4.5 4.5 0 0 1 4.5-4.5M5 13l3.75-3.5M12.25 14a1.25 1.25 0 1 0 2.5 0a1.25 1.25 0 1 0-2.5 0"/></svg><span><b>VALKERN</b><small>EVERYDAY TOOLS</small></span></a>
+<h1>Условия использования</h1>
+<nav class="langs" aria-label="Язык"><a href="terms.html" hreflang="en">English</a> · <a href="terms-ru.html" hreflang="ru" aria-current="page">Русский</a></nav>
+</div></header>
+<main><div class="wrap">
+<p class="meta"><strong>Действуют с:</strong> 17 октября 2026 · <strong>Приложение:</strong> Valkern: Everyday Tools (Android, iOS) · <strong>Разработчик:</strong> Team of Developers, <span class="todo">[STUDIO ADDRESS]</span> · <strong>Связь:</strong> <span class="todo">[STUDIO EMAIL]</span></p>
+<p>Эти условия действуют, когда вы пользуетесь Valkern. Устанавливая приложение или пользуясь им, вы их принимаете. Если вы не согласны, пожалуйста, не используйте приложение. Как мы обращаемся с данными, описано в <a href="privacy-ru.html">Политике конфиденциальности</a>.</p>
+<h2 id="1-приложение">1. Приложение</h2>
+<p>Valkern — набор утилит на каждый день, который работает без интернета и без аккаунта. Все утилиты бесплатны для всех. В обновлениях мы можем добавлять, менять или убирать утилиты.</p>
+<h2 id="2-ваша-лицензия">2. Ваша лицензия</h2>
+<p>Мы даём вам личную, неисключительную, непередаваемую лицензию пользоваться Valkern на ваших устройствах в некоммерческих целях. Нельзя продавать, сдавать в аренду или распространять приложение, удалять из него уведомления, декомпилировать, исследовать устройство или изменять его — кроме случаев, когда это всё равно разрешено законом. Компоненты с открытым кодом подчиняются своим лицензиям (Настройки → О приложении → Лицензии).</p>
+<h2 id="3-keeper-необязательные-покупки">3. Keeper (необязательные покупки)</h2>
+<ul><li>Keeper меняет только оформление (темы, акценты, иконки, стили виджетов) и даёт голос за следующую утилиту. Он не открывает функций.</li><li>Покупки и подписки оформляет и оплачивает <strong>Google Play</strong> или <strong>App Store</strong> по своим условиям. Цена видна в сторе до оплаты.</li><li><strong>Разовые уровни</strong> остаются вашими и восстанавливаются на новом устройстве через тот же аккаунт стора.</li><li><strong>Подписка на месяц</strong> продлевается автоматически, пока вы не отмените её в настройках подписок стора. Когда она закончится, оформление уровня II перестанет действовать; разовые уровни останутся.</li><li>Возвраты оформляет стор по своим правилам. После возврата соответствующее оформление снимается.</li><li>Голос — это пожелание, а не обещание: какие утилиты делать, решаем мы.</li></ul>
+<h2 id="4-ваши-данные">4. Ваши данные</h2>
+<p>Ваши записи хранятся только на вашем устройстве. Мы не можем их увидеть, восстановить или вернуть. Удаление приложения или «Удалить все данные» стирает их навсегда. Если данные важны — делайте резервную копию и храните файл надёжно: он не зашифрован.</p>
+<h2 id="5-bluetooth-чат">5. Bluetooth-чат</h2>
+<ul><li>Чат передаёт сообщения напрямую между телефонами рядом и через другие телефоны с Valkern. Серверов нет: <strong>доставка не гарантируется</strong>, сообщения, не доставленные за 24 часа, удаляются.</li><li>Пока чат включён, люди рядом видят ваш ник и публичный ключ.</li><li>Вы отвечаете за то, что отправляете. Не используйте чат, чтобы нарушать закон, преследовать или угрожать, рассылать спам или делиться тем, на что у вас нет прав. Мы не можем читать, хранить или модерировать сообщения; заблокировать можно любого.</li></ul>
+<h2 id="6-не-для-экстренных-случаев-и-не-профессиональный-совет">6. Не для экстренных случаев и не профессиональный совет</h2>
+<p>Valkern помогает с бытовыми задачами. Это <strong>не</strong> медицинское, спасательное, навигационное или аварийное устройство.</p>
+<ul><li><strong>Bluetooth-чат и азбука Морзе / SOS</strong> не заменяют звонок в экстренные службы. Сигнал могут не увидеть, не услышать или не получить.</li><li><strong>Сохранённые точки и компас</strong> зависят от GPS, датчиков и окружения и могут ошибаться. Не полагайтесь только на них, когда речь идёт о безопасности.</li><li><strong>Сроки годности</strong> — напоминания по введённым вами данным; всегда сверяйтесь с упаковкой, фармацевтом или врачом.</li><li><strong>Кухонные меры, разделение счёта, подписки и топливо</strong> дают оценки по вашим данным и типичным значениям; важные суммы проверяйте сами.</li></ul>
+<h2 id="7-доступность-и-изменения">7. Доступность и изменения</h2>
+<p>Приложение предоставляется в том виде, в каком оно есть в данный момент. Мы можем обновлять его или прекратить развитие. Мы можем менять эти условия; новая версия действует с указанной даты, а о важных изменениях сообщим в приложении или на странице стора. Продолжая пользоваться приложением, вы принимаете новые условия.</p>
+<h2 id="8-отказ-от-гарантий">8. Отказ от гарантий</h2>
+<p>В пределах, допустимых законом, Valkern предоставляется «как есть» и «по мере доступности», без каких-либо гарантий, в том числе пригодности для определённой цели, точности или бесперебойной работы. Ваши права потребителя по закону вашей страны это не затрагивает.</p>
+<h2 id="9-ограничение-ответственности">9. Ограничение ответственности</h2>
+<p>В пределах, допустимых законом, мы не отвечаем за косвенный ущерб, а также за потерю данных, прибыли или возможностей из-за использования приложения или невозможности его использовать. Наша общая ответственность ограничена суммой, которую вы заплатили за Keeper за двенадцать месяцев до претензии. Это не ограничивает ответственность, которую по закону ограничить нельзя (например, за умысел, грубую неосторожность или вред жизни и здоровью).</p>
+<h2 id="10-право-и-споры">10. Право и споры</h2>
+<p>К этим условиям применяется право <span class="todo">[COUNTRY]</span> без ущерба для обязательных норм о защите потребителей страны, где вы живёте. Если какая-то часть условий недействительна, остальные продолжают действовать. Сначала напишите нам — большинство вопросов решается письмом.</p>
+<h2 id="11-прекращение">11. Прекращение</h2>
+<p>Вы можете перестать пользоваться Valkern в любой момент, удалив приложение. Покупки в сторе регулируются условиями стора.</p>
+<h2 id="12-связь">12. Связь</h2>
+<p>Team of Developers · <span class="todo">[STUDIO ADDRESS]</span> · <span class="todo">[STUDIO EMAIL]</span></p>
+<p>Если перевод условий расходится с английским текстом, действует английский текст.</p>
+</div></main>
+<footer><div class="wrap">
+<a href="privacy-ru.html">Политика конфиденциальности</a>
+<a href="terms-ru.html">Условия использования</a>
+<span>© Team of Developers</span>
+</div></footer>
+</body>
+</html>
