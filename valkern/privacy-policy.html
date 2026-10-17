@@ -1,1 +1,107 @@
-sdfsdf
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="referrer" content="no-referrer">
+<title>Privacy Policy — Valkern</title>
+<style>
+@font-face { font-family: Plex; font-weight: 400; src: url(fonts/ibm_plex_sans_regular.ttf); font-display: swap; }
+@font-face { font-family: Plex; font-weight: 600; src: url(fonts/ibm_plex_sans_semibold.ttf); font-display: swap; }
+@font-face { font-family: Mono; font-weight: 700; src: url(fonts/jetbrains_mono_bold.ttf); font-display: swap; }
+:root {
+  --bg: #E7E3DA; --surface: #F5F2EC; --text: #211F1B; --muted: #555048; --line: #B9B2A4;
+  --accent: #B33B0A; --band: #26241F; --band-text: #F2EFE8; --band-accent: #FF7B3A; --mark: #FFF2B8;
+}
+@media (prefers-color-scheme: dark) {
+  :root { --bg: #191816; --surface: #24221F; --text: #EFEBE3; --muted: #ADA698; --line: #4A463F;
+    --accent: #FF7B3A; --mark: #5C4A00; }
+}
+* { box-sizing: border-box; }
+html { -webkit-text-size-adjust: 100%; }
+body { margin: 0; background: var(--bg); color: var(--text);
+  font: 400 17px/1.6 Plex, system-ui, -apple-system, "Segoe UI", Roboto, sans-serif; }
+header { background: var(--band); color: var(--band-text); }
+.wrap { max-width: 760px; margin: 0 auto; padding: 0 20px; }
+header .wrap { padding-top: 28px; padding-bottom: 28px; }
+.brand { display: flex; align-items: center; gap: 12px; color: var(--band-text); text-decoration: none; }
+.brand svg { width: 36px; height: 36px; flex: none; }
+.brand b { font: 700 18px/1 Mono, ui-monospace, monospace; letter-spacing: .16em; }
+.brand small { display: block; margin-top: 4px; font: 700 11px/1 Mono, ui-monospace, monospace; letter-spacing: .2em;
+  color: #BDB6A9; }
+h1 { margin: 24px 0 0; font-weight: 600; font-size: 34px; line-height: 1.2; }
+.langs { margin-top: 14px; font-size: 15px; color: #BDB6A9; }
+.langs a { color: var(--band-text); }
+.langs [aria-current] { color: var(--band-accent); font-weight: 600; text-decoration: none; }
+main .wrap { padding-top: 8px; padding-bottom: 48px; }
+.meta { margin: 24px 0 8px; padding: 14px 16px; background: var(--surface); border: 1.5px solid var(--line);
+  border-radius: 8px; color: var(--muted); font-size: 15px; }
+h2 { margin: 36px 0 8px; font-weight: 600; font-size: 22px; line-height: 1.3; }
+p, ul { margin: 0 0 14px; }
+ul { padding-left: 22px; }
+li { margin: 6px 0; }
+a { color: var(--accent); text-underline-offset: 2px; }
+code { font-family: ui-monospace, monospace; font-size: .9em; }
+strong { font-weight: 600; }
+.table { overflow-x: auto; margin: 0 0 16px; }
+table { border-collapse: collapse; width: 100%; background: var(--surface); font-size: 15px; }
+th, td { text-align: left; vertical-align: top; padding: 10px 12px; border: 1.5px solid var(--line); }
+th { font-weight: 600; }
+.todo { background: var(--mark); border-radius: 3px; padding: 0 3px; }
+footer { border-top: 1.5px solid var(--line); color: var(--muted); font-size: 15px; }
+footer .wrap { padding-top: 20px; padding-bottom: 32px; display: flex; flex-wrap: wrap; gap: 8px 24px; }
+footer a { color: var(--muted); }
+@media (max-width: 480px) { h1 { font-size: 28px; } body { font-size: 16px; } }
+@media print { header { background: none; color: #000; } .langs, footer { display: none; } }
+</style>
+</head>
+<body>
+<header><div class="wrap">
+<a class="brand" href="index.html"><svg viewBox="0 0 24 24" fill="none" stroke="#FF7B3A" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M9.5 3.5h5a4.5 4.5 0 0 1 4.5 4.5v8a4.5 4.5 0 0 1-4.5 4.5h-5A4.5 4.5 0 0 1 5 16v-3M5 8a4.5 4.5 0 0 1 4.5-4.5M5 13l3.75-3.5M12.25 14a1.25 1.25 0 1 0 2.5 0a1.25 1.25 0 1 0-2.5 0"/></svg><span><b>VALKERN</b><small>EVERYDAY TOOLS</small></span></a>
+<h1>Privacy Policy</h1>
+<nav class="langs" aria-label="Language"><a href="privacy.html" hreflang="en" aria-current="page">English</a> · <a href="privacy-ru.html" hreflang="ru">Русский</a></nav>
+</div></header>
+<main><div class="wrap">
+<p class="meta"><strong>Effective date:</strong> 15 October 2026 · <strong>App:</strong> Valkern: Everyday Tools (Android, iOS) · <strong>Developer:</strong> Team of Developers, <span class="todo">[STUDIO ADDRESS]</span> · <strong>Contact:</strong> <span class="todo">[STUDIO EMAIL]</span></p>
+<p>Valkern is a set of everyday tools that works without an account, without the cloud and without the internet. This policy explains what happens to your data. The short version: <strong>your data stays on your device. We receive nothing unless you turn on crash reports or statistics, and both are off by default.</strong></p>
+<h2 id="1-data-that-stays-on-your-device">1. Data that stays on your device</h2>
+<p>Everything you enter in Valkern — events, habits, subscriptions, expiry dates, waypoints with their photos and notes, fuel records, chat contacts and messages, settings — is stored only on your device, in the app's private storage. We have no servers and no accounts, and we cannot see, recover or delete this data.</p>
+<ul><li><strong>Backup.</strong> A backup is a JSON file that you create and save yourself (for example to your phone or a drive you choose). It is not encrypted: anyone who has the file can read it. Chat encryption keys are never included in a backup.</li><li><strong>Sharing.</strong> When you share something (text, a GPX file, a card), it goes only where you send it, using your system's share sheet.</li><li><strong>Deleting.</strong> Settings → «Delete all data» erases everything in the app. Uninstalling the app also deletes all of its data.</li></ul>
+<h2 id="2-permissions">2. Permissions</h2>
+<p>Valkern asks for a permission only when you use the tool that needs it, and works without it otherwise.</p>
+<div class="table"><table><thead><tr><th>Permission</th><th>Why</th><th>Tool</th></tr></thead><tbody><tr><td>Location</td><td>Save the coordinates of a waypoint, show the direction and distance back to it</td><td>Waypoints</td></tr><tr><td>Location (Android 8–11 only)</td><td>Android requires it to search for Bluetooth devices; Valkern does not read your coordinates for this</td><td>Bluetooth chat</td></tr><tr><td>Bluetooth (scan, advertise, connect)</td><td>Talk to phones nearby</td><td>Bluetooth chat</td></tr><tr><td>Camera</td><td>Scan a contact’s QR code</td><td>Bluetooth chat</td></tr><tr><td>Notifications</td><td>Reminders you set; the «Stay connected» status of the chat</td><td>Expiry dates, subscriptions, habits, last time, chat</td></tr></tbody></table></div>
+<p>Photos for waypoints are chosen through the system photo picker; Valkern sees only the photo you pick. Coordinates never leave your device unless you share them.</p>
+<h2 id="3-crash-reports-and-statistics-optional-off-by-default">3. Crash reports and statistics (optional, off by default)</h2>
+<p>You can turn on two things during the first launch or later in Settings → Privacy. Each one is a separate switch, free, and can be turned off at any time. Until you turn a switch on, the related SDK is not even started.</p>
+<p>Both are provided by <strong>Google Firebase</strong> (Google Ireland Limited / Google LLC), which processes the data on our behalf as a service provider. The data is sent encrypted (HTTPS).</p>
+<p><strong>Crash reports (Firebase Crashlytics)</strong> — sent only when the app crashes or fails:</p>
+<ul><li>the technical error report (stack trace) and the state of the app at that moment;</li><li>device model, operating system and its version, app version, free memory and storage;</li><li>a random installation identifier, used to count how many installations a crash affects.</li></ul>
+<p>Crash reports never contain what you entered in the app. Google keeps them for <strong>90 days</strong>.</p>
+<p><strong>Statistics (Google Analytics for Firebase)</strong> — anonymous usage numbers:</p>
+<ul><li>that the app was opened; which tool was opened (for example «Waypoints»); that the Keeper screen was shown; which Keeper level was bought (only the level — no price, currency or order number);</li><li>events Firebase sends automatically: first launch, session start, time in the app;</li><li>a random app-instance identifier; device model, operating system, app version, language;</li><li>an approximate region (country or city) that Google derives from a shortened (masked) IP address. The IP address itself is not stored.</li></ul>
+<p>The advertising identifier (Android Advertising ID, Apple IDFA) is not used and not collected. Statistics are not used for advertising, profiling or tracking across apps and websites, and are not linked to your identity. Google keeps event data for <strong>2 months</strong>; after that only aggregate totals remain.</p>
+<p><strong>Turning it off.</strong> When you turn crash reports off, unsent reports are deleted from your device. When you turn statistics off, collection stops and the app-instance identifier is reset. We cannot link data already received to you, because we do not know who you are.</p>
+<h2 id="4-purchases-keeper">4. Purchases (Keeper)</h2>
+<p>Keeper is an optional purchase that changes the app's appearance; it unlocks no features. Payments are handled entirely by <strong>Google Play</strong> or the <strong>App Store</strong> under their own privacy policies. We never see your name, email, card or account. The purchase is checked on your device only; we have no server.</p>
+<p>If you choose «Add my name» or vote for the next tool, your email app opens with a prepared message to us. Sending it is your decision. We use your email address and the name you write only to answer you, to count votes, and — if you asked — to add your name to the thank-you list in a future version of the app. Write to us to have it removed.</p>
+<h2 id="5-bluetooth-chat">5. Bluetooth chat</h2>
+<p>The chat works only between phones nearby, over Bluetooth Low Energy. There are <strong>no servers</strong>: messages never reach us or anyone else's server, and we cannot read them.</p>
+<ul><li><strong>End-to-end encryption.</strong> Every message is encrypted on your phone and can be decrypted only by its recipient (or the members of the group).</li><li><strong>Mesh relay.</strong> If the recipient is not in range, other phones with Valkern nearby may carry the message along. They receive only encrypted data that they cannot read or change. Your phone may relay other people's encrypted messages in the same way while the chat is on. Undelivered messages are kept for up to 24 hours.</li><li><strong>What people nearby can see.</strong> While the chat is on, people nearby with Valkern can see your nickname and your public key (its fingerprint is your contact ID). Choose a new nickname for every session if you prefer. Bluetooth broadcasts contain only the Valkern service identifier; random identifiers change every 15 minutes.</li><li><strong>Contacts</strong> are added only in person (a 6-digit code or a QR code). Your private keys never leave the device.</li><li><strong>Background.</strong> The chat runs in the background only if you turn on «Stay connected»; a permanent notification lets you stop it.</li><li><strong>Deleting.</strong> «Erase chat» deletes contacts, messages and keys. There is no moderation, because there is no server; you can block anyone.</li></ul>
+<h2 id="6-no-ads-no-tracking-no-ai">6. No ads, no tracking, no AI</h2>
+<p>Valkern shows no ads, has no advertising or tracking SDKs, does not sell or share data, and uses no AI models. The app works fully offline; the internet is used only for purchases and, if you allowed them, crash reports and statistics.</p>
+<h2 id="7-children">7. Children</h2>
+<p>Valkern is a general-audience app and is not directed at children. We do not knowingly collect data from children.</p>
+<h2 id="8-your-rights">8. Your rights</h2>
+<p>If you are in the EU/EEA, the UK or another region with similar laws, you have the right to access, correct, delete and port your data, to object to processing, and to withdraw consent at any time. The legal basis for crash reports and statistics is your consent (GDPR Art. 6(1)(a)); withdrawing it does not affect earlier processing. Most of your data is only on your device and under your control. For anything else, write to <span class="todo">[STUDIO EMAIL]</span>. You may also complain to your data protection authority.</p>
+<h2 id="9-changes">9. Changes</h2>
+<p>If this policy changes, we will update this page and its date. If a change adds data collection, the app will ask for your consent again.</p>
+<h2 id="10-contact">10. Contact</h2>
+<p>Team of Developers · <span class="todo">[STUDIO ADDRESS]</span> · <span class="todo">[STUDIO EMAIL]</span></p>
+</div></main>
+<footer><div class="wrap">
+<a href="privacy.html">Privacy Policy</a>
+<a href="terms.html">Terms of Use</a>
+<span>© Team of Developers</span>
+</div></footer>
+</body>
+</html>
